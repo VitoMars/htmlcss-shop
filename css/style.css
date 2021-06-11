@@ -7,15 +7,14 @@
 .container {
   position: relative;
   width: 50%;
+  margin: 0 auto;
+  margin-top: 1%;
 }
 
 .prodotto1,
 .prodotto2,
 .prodotto3 {
   display: inline-block;
-  /* height: 50px;
-  width: 50px;
-  width: 32%; */
 }
 
 img {
@@ -33,6 +32,6 @@ img {
   font-weight: bold;
 }
 
-span {
+.prezzo_originale {
   text-decoration: line-through;
 }
