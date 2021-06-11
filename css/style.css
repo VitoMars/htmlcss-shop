@@ -3,3 +3,36 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.prodotto1,
+.prodotto2,
+.prodotto3 {
+  display: inline-block;
+  /* height: 50px;
+  width: 50px;
+  width: 32%; */
+}
+
+img {
+  height: 400px;
+  width: auto;
+}
+
+.marca {
+  font-size: 14px;
+}
+
+.prezzo {
+  display: inline-block;
+  color: red;
+  font-weight: bold;
+}
+
+span {
+  text-decoration: line-through;
+}
