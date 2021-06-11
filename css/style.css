@@ -38,6 +38,31 @@ img {
   text-decoration: line-through;
 }
 
+.sconto_rosso,
+.sostenibilità {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  line-height: 25px;
+  text-align: center;
+}
+
+.sconto_rosso {
+  height: 25px;
+  width: 40px;
+  top: 75%;
+  left: 0%;
+  background-color: red;
+}
+
+.sostenibilità {
+  height: 25px;
+  width: 100px;
+  top: 75%;
+  left: 16%;
+  background-color: green;
+}
+
 .cuore {
   position: absolute;
   height: 40px;
@@ -48,4 +73,8 @@ img {
   background-color: white;
   text-align: center;
   line-height: 40px;
+}
+
+.senzaSconto {
+  left: 0%;
 }
