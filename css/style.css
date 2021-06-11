@@ -78,3 +78,21 @@ img {
 .senzaSconto {
   left: 0%;
 }
+
+/* Hover immagini */
+
+.img_secondaria {
+  display: none;
+}
+
+.prodotto1:hover .img_primaria,
+.prodotto2:hover .img_primaria,
+.prodotto3:hover .img_primaria {
+  display: none;
+}
+
+.prodotto1:hover .img_secondaria,
+.prodotto2:hover .img_secondaria,
+.prodotto3:hover .img_secondaria {
+  display: inline-block;
+}
