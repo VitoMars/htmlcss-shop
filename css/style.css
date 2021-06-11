@@ -14,7 +14,9 @@
 .prodotto1,
 .prodotto2,
 .prodotto3 {
+  position: relative;
   display: inline-block;
+  margin-right: 1%;
 }
 
 img {
@@ -34,4 +36,16 @@ img {
 
 .prezzo_originale {
   text-decoration: line-through;
+}
+
+.cuore {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  font-size: 30px;
+  top: 5%;
+  right: 0%;
+  background-color: white;
+  text-align: center;
+  line-height: 40px;
 }
