@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 1%;
+}
+
+/* Prodotti */
+
+.prodotto1,
+.prodotto2,
+.prodotto3 {
+  position: relative;
+  display: inline-block;
+  margin-right: 1%;
+}
+
+/* Immagini */
+
+img {
+  height: 400px;
+  width: auto;
+}
+
+/* Testo */
+
+.marca {
+  font-size: 14px;
+}
+
+.prezzo {
+  display: inline-block;
+  color: red;
+  font-weight: bold;
+}
+
+.prezzo_originale {
+  text-decoration: line-through;
+}
+
+/* Tag */
+
+.sconto_rosso,
+.sostenibilità {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  line-height: 25px;
+  text-align: center;
+}
+
+.sconto_rosso {
+  height: 25px;
+  width: 40px;
+  top: 75%;
+  left: 0%;
+  background-color: #eb0037;
+}
+
+.sostenibilità {
+  height: 25px;
+  width: 100px;
+  top: 75%;
+  left: 16%;
+  background-color: #00875a;
+}
+
+.senzaSconto {
+  left: 0%;
+}
+
+/* Cuore */
+
+.cuore {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  font-size: 30px;
+  top: 5%;
+  right: 0%;
+  background-color: white;
+  text-align: center;
+  line-height: 40px;
+}
+
+/* Hover immagini */
+
+.img_secondaria {
+  display: none;
+}
+
+.prodotto1:hover .img_primaria,
+.prodotto2:hover .img_primaria,
+.prodotto3:hover .img_primaria {
+  display: none;
+}
+
+.prodotto1:hover .img_secondaria,
+.prodotto2:hover .img_secondaria,
+.prodotto3:hover .img_secondaria {
+  display: inline-block;
+}
